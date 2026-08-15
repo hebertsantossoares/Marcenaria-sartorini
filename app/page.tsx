@@ -240,14 +240,7 @@ export default function Home() {
             arquitetura, funcionalidade e acabamento impecável.
           </p>
 
-          <div
-            style={{
-              display: "flex",
-              gap: 12,
-              marginTop: 30,
-              flexWrap: "wrap",
-            }}
-          >
+          <div className="hero-actions">
             <a href="#orcamento" className="btn btn-light">
               Criar meu projeto
               <ArrowRight size={17} />
@@ -266,14 +259,7 @@ export default function Home() {
 
       <section className="section" id="sobre">
         <div className="container">
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              gap: 70,
-              alignItems: "center",
-            }}
-          >
+          <div className="about-grid">
             <img
               src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=85"
               style={{
@@ -374,15 +360,7 @@ export default function Home() {
 
       <section className="section" id="servicos">
         <div className="container">
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              gap: 30,
-              alignItems: "end",
-              marginBottom: 45,
-            }}
-          >
+          <div className="section-header">
             <div>
               <span className="kicker">Soluções</span>
 
@@ -487,12 +465,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div
-            className="grid"
-            style={{
-              gridTemplateColumns: "repeat(6, 1fr)",
-            }}
-          >
+          <div className="process-grid">
             {[
               "Briefing",
               "Medição",
@@ -680,14 +653,7 @@ export default function Home() {
 
       <section className="section" id="orcamento">
         <div className="container">
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              gap: 70,
-              alignItems: "start",
-            }}
-          >
+          <div className="contact-grid">
             {/* Informações de contato */}
             <div>
               <span className="kicker">Vamos conversar</span>
@@ -756,12 +722,7 @@ export default function Home() {
             {/* Formulário */}
             <form
               onSubmit={quote}
-              className="card"
-              style={{
-                padding: 30,
-                display: "grid",
-                gap: 14,
-              }}
+              className="card quote-card"
             >
               {sent ? (
                 // Mensagem exibida após o envio
@@ -1004,9 +965,8 @@ export default function Home() {
       >
         <div className="container">
           <div
+            className="footer-grid"
             style={{
-              display: "grid",
-              gridTemplateColumns: "2fr 1fr 1fr 1fr",
               gap: 40,
               paddingBottom: 40,
               borderBottom: "1px solid #ffffff1a",
