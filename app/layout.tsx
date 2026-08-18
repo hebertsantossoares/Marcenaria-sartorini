@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import ThemeToggle from "./components/ThemeToggle";
 
 export const metadata: Metadata = {
   title: "Santorini Marcenaria | Móveis Planejados Sob Medida",
@@ -17,7 +16,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <script dangerouslySetInnerHTML={{ __html: setInitialThemeScript() }} />
         {children}
-        <ThemeToggle />
       </body>
     </html>
   );

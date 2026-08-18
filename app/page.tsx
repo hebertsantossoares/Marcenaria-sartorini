@@ -13,6 +13,7 @@ import {
   Star,
   X,
 } from "lucide-react";
+import ThemeToggle from "./components/ThemeToggle";
 
 // ============================================================
 // DADOS DO PORTFÓLIO
@@ -169,6 +170,8 @@ export default function Home() {
             Solicitar orçamento
             <ArrowRight size={16} />
           </a>
+
+          <ThemeToggle />
 
           {/* Botão do menu mobile */}
           <button

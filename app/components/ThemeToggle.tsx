@@ -28,11 +28,11 @@ export default function ThemeToggle() {
   }, [theme]);
 
   return (
-    <div style={{ position: "fixed", right: 18, bottom: 18, zIndex: 60 }}>
+    <div className="theme-toggle">
       <button
         aria-label="Alternar tema"
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-        style={{ padding: 10, borderRadius: 999, border: "1px solid #ddd", background: "var(--bg)", color: "var(--ink)" }}
+        style={{ padding: 10, borderRadius: 999, border: "1px solid currentColor", background: "transparent", color: "inherit" }}
       >
         {theme === "dark" ? "🌙" : "☀️"}
       </button>
