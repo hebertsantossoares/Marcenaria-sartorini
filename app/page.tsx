@@ -345,8 +345,8 @@ export default function Home() {
         <div className="container stats">
           {[
             ["+200", "Projetos entregues"],
-            ["+12", "Anos de experiência"],
-            ["98%", "Clientes satisfeitos"],
+            ["+20", "Anos de experiência"],
+            ["100%", "Clientes satisfeitos"],
             ["+5", "Cidades atendidas"],
           ].map(([number, label]) => (
             <div className="stat" key={label}>
