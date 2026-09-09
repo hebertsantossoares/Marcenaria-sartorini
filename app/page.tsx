@@ -62,44 +62,45 @@ const services = [
   [
     "cozinhas",
     "Cozinhas Planejadas",
-    "https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&fit=crop&w=900&q=80",
+    "https://blog.goquadros.com.br/wp-content/uploads/2023/06/COZINHA.jpg",
   ],
   [
     "closets",
     "Closets",
-    "https://images.unsplash.com/photo-1558997519-83ea9252edf8?auto=format&fit=crop&w=900&q=80",
+    "https://blog.leomadeiras.com.br/wp-content/uploads/2025/01/ideias-de-closet-projeto-de-marcenaria-leo-madeiras-01.jpg",
   ],
   [
     "dormitorios",
     "Dormitórios",
-    "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAtlsrTBXOQ34WfHJ-2lbOaZbTPZ_xUm1mCqAqsPLwV0AasZ-_bt8wQYVa&s=10",
   ],
   [
     "home-office",
     "Home Office",
-    "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=900&q=80",
+    "https://i.pinimg.com/736x/79/1c/40/791c407ffbcc46b1ee8547ff00cb94d6.jpg",
   ],
   [
     "areas-gourmet",
     "Áreas Gourmet",
-    "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
+    "https://www.squadrapvc.com.br/img/blog/grande/como-criar-um-espaco-gourmet-aconchegante-para-sua-casa-1660075164.webp",
   ],
   [
     "paineis-tv",
     "Painéis de TV",
-    "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=80",
+    "https://static.mobly.com.br/p/Modern-Painel-para-TV-atC3A9-75-Polegadas-Oslo-Canela-e-Off-White-217-cm-7362-0129431-1.jpg",
   ],
   [
     "banheiros",
     "Banheiros",
-    "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80",
+    "https://www.tupi.fm/wp-content/uploads/2025/03/banheiro.jpg",
   ],
   [
     "corporativo",
     "Corporativo",
-    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=80",
+    "https://www.rsdesign.com.br/wp-content/uploads/2023/03/como-iniciar-o-projeto-do-mobiliario-corporativo.jpg",
   ],
 ];
+
 
 // ============================================================
 // COMPONENTE PRINCIPAL
@@ -264,7 +265,7 @@ export default function Home() {
         <div className="container">
           <div className="about-grid">
             <img
-              src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=85"
+              src="/images/cozinha-nossa-essencia.jpg"
               style={{
                 width: "100%",
                 height: 550,
